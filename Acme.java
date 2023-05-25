@@ -21,7 +21,7 @@ package week3;
 			System.out.println("Title of the page is- " + driver.getTitle());			
 			WebElement logOut = driver.findElement(By.xpath("//*[@id=\"bs-example-navbar-collapse-1\"]/ul/li[3]/a"));
 			logOut.click();
-			Thread.sleep(100);
+			Thread.sleep(1000);
 			driver.close();
 
 		}
